@@ -9,4 +9,13 @@ import FooterFooter from "./components/FooterFooter.vue";
   <FooterFooter />
 </template>
 
-<style scoped></style>
+<style scoped>
+@media screen and (min-width: 360px) and (max-width: 980px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
