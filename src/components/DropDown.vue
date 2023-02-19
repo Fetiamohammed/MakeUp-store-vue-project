@@ -264,6 +264,26 @@ export default {
     justify-content: center;
     align-items: center;
   }
+  .Box {
+    width: 100%;
+    height: auto;
+    margin: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Dropp {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  }
 }
 /* For mobile phones: */
 </style>

@@ -107,11 +107,38 @@ export default {
     width: 100%;
     height: auto;
   }
-  .imgabout {
+  .aboutBox {
     width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .imgBoxAb {
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flexboxAb {
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgabout {
+    width: 370px;
     height: 350px;
     display: flex;
-    margin: 30px;
+    align-items: center;
+    justify-content: center;
   }
 }
 </style>
