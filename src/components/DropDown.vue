@@ -284,6 +284,12 @@ export default {
     justify-content: center;
     align-items: center;
   }
+  .DropContainer {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 /* For mobile phones: */
 </style>
