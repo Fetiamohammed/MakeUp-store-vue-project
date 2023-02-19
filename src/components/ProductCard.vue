@@ -15,9 +15,9 @@
             >BUY</router-link
           >
           <span />
-          <router-link href="#" id="product-home-btn" class="heart" to=""
-            ><img src="../assets/img/icons8-favorite-50 (2).png" alt=""
-          /></router-link>
+          <!--<router-link href="#" id="product-home-btn" class="heart" to=""
+            ><img src="../assets/img/" alt=""
+          /></router-link>-->
         </li>
       </ul>
     </div>
